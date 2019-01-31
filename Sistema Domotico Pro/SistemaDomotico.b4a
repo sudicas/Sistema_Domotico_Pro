@@ -1,0 +1,401 @@
+﻿Version=7.01
+NumberOfModules=39
+Module1=ActCentral
+Module2=ValoresComunes
+Module3=ActMosaico
+Module4=ActComandos
+Module5=ActConfigSetponint
+Module6=ActConsignas
+Module7=ActCircuit
+Module8=ActSensors
+Module9=ActEnableHorarios
+Module10=ActDiaEspecial
+Module11=ActConEscena
+Module12=ActHorarios2
+Module13=ActAlarmas2
+Module14=ActVoice
+Module15=ActHistorico
+Module16=ActCamara
+Module17=ActNotification
+Module18=ActScene
+Module19=ActFunciones
+Module20=ActCondicionados
+Module21=ActSelectSensores
+Module22=ActConfigSensors
+Module23=mbVSeekBar
+Module24=ActMenu
+Module25=ActConfigNotification
+Module26=ActWifis
+Module27=ActFreeTxt
+Module28=ActConfigVoice
+Module29=ActConfigFreeTxt
+Module30=ActCentrales
+Module31=ActConfigEscenas
+Module32=ActConfigFunciones
+Module33=ActConfigCondicionados
+Module34=ActConfigCir
+Module35=ActPersianas
+Module36=ActConfigComandosComu
+Module37=ActConfigComandos
+Module38=ActPersonalIcon
+Module39=SlideMenu
+Build1=Default,arduino.automatizacion.excontrol.PRO
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: http://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="5" android:targetSdkVersion="14"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~SetApplicationAttribute(android:theme, "@android:style/Theme.Holo")~\n~~\n~~\n~~\n~
+IconFile=
+NumberOfFiles=142
+File1=acess.png
+File2=acondicionadoAl.png
+File3=acondicionadodes.png
+File4=acondicionadooff.png
+File5=acondicionadoon.png
+File6=add.png
+File7=Al.png
+File8=ala.png
+File9=alarma.png
+File10=alarmades.png
+File11=alarmaoff.png
+File12=alarmaon.png
+File13=arduino.png
+File14=bao.png
+File15=baolt.png
+File16=bombillaal.png
+File17=bombillades.png
+File18=bombillaoff.png
+File19=bombillaon.png
+File20=calefaccionAl.png
+File21=calefacciondes.png
+File22=calefaccionoff.png
+File23=calefaccionon.png
+File24=calendario.png
+File25=cama.png
+File26=camalt.png
+File27=Camara.png
+File28=camlt.png
+File29=car.png
+File30=cargando.png
+File31=carlt.png
+File32=chart.png
+File33=checkoff.png
+File34=checkon.png
+File35=cir.png
+File36=cocina.png
+File37=cocinalt.png
+File38=com.png
+File39=comando.png
+File40=cond.png
+File41=config.png
+File42=configdo.png
+File43=configName.png
+File44=configup.png
+File45=cursor.png
+File46=delete.png
+File47=DepositoOn.png
+File48=DepositoOnDes.png
+File49=des.png
+File50=enchufeAl.png
+File51=enchufedes.png
+File52=enchufeoff.png
+File53=enchufeon.png
+File54=esc.png
+File55=fechahora.png
+File56=fep.png
+File57=freeTxtt.png
+File58=frmadministrador.bal
+File59=frmbase.bal
+File60=frmcentrales.bal
+File61=FrmCircuitos.bal
+File62=frmcomandos.bal
+File63=frmcondicionados.bal
+File64=frmconficomando.bal
+File65=frmconfig.bal
+File66=frmconfig2.bal
+File67=FrmConfigCir.bal
+File68=FrmConfigCondicionado.bal
+File69=FrmConfigCondicionados.bal
+File70=FrmConfigEsc.bal
+File71=FrmConfigSensores.bal
+File72=FrmConfigVoice.bal
+File73=frmdiaespecial.bal
+File74=frmenablehorarios.bal
+File75=FrmEscenas.bal
+File76=frmhorario.bal
+File77=frminicio.bal
+File78=frmmenu.bal
+File79=frmmosaico.bal
+File80=FrmMosaico2.bal
+File81=FrmSensores.bal
+File82=FrmTab.bal
+File83=FrmVoz.bal
+File84=funciones.png
+File85=garden.png
+File86=gardenlt.png
+File87=Help.png
+File88=hom.png
+File89=home.png
+File90=ic_action_menu.png
+File91=icono.png
+File92=lux.png
+File93=luxdes.png
+File94=menu.png
+File95=mnu.png
+File96=mnuend.png
+File97=new.png
+File98=off.png
+File99=on.png
+File100=persiana.png
+File101=persianades.png
+File102=puertaAl.png
+File103=puertades.png
+File104=puertaoff.png
+File105=puertaon.png
+File106=reloj.jpg
+File107=reloj.png
+File108=relook.png
+File109=riegoAl.png
+File110=riegodes.png
+File111=riegooff.png
+File112=riegoon.png
+File113=s_generico.png
+File114=s_genericodes.png
+File115=s_humedad.png
+File116=s_humedaddes.png
+File117=s_temperatura.png
+File118=Salir.png
+File119=salon.png
+File120=salonlt.png
+File121=save.png
+File122=scene2.png
+File123=sen.png
+File124=sensores.png
+File125=set.png
+File126=SettingLt.png
+File127=temperatura.png
+File128=temperaturades.png
+File129=toldodes.png
+File130=toldooff.png
+File131=toldoon.png
+File132=valvulaAl.png
+File133=valvulades.png
+File134=valvulaoff.png
+File135=valvulaon.png
+File136=ventilador al.png
+File137=ventiladoral.png
+File138=ventiladordes.png
+File139=ventiladoroff.png
+File140=ventiladoron.png
+File141=voice.png
+File142=voicebig.png
+NumberOfLibraries=21
+Library1=animation
+Library2=core
+Library3=http
+Library4=network
+Library5=phone
+Library6=tts
+Library7=fileselect
+Library8=mlwifi
+Library9=animationplus
+Library10=reflection
+Library11=dialogs
+Library12=abzipunzip
+Library13=ss_slidingmenustandard
+Library14=tabhostextras
+Library15=b4agraphview
+Library16=abextdrawing
+Library17=appcompat
+Library18=archiver
+Library19=gameview
+Library20=okhttp
+Library21=okhttputils2
+@EndOfDesignText@
+#Region Module Attributes
+	#FullScreen: True
+	#IncludeTitle: False
+	#ApplicationLabel: Arduino Automatización Pro
+	#VersionCode: 20
+	#VersionName: 20
+	#SupportedOrientations: unspecified
+	#CanInstallToExternalStorage: False
+	
+	'#AdditionalRes: C:\Program Files (x86)\Anywhere Software\Basic4android40\Libraries\custom\res, io.vov.vitamio
+#End Region
+
+'change 4 xmas
+
+Sub process_globals
+	'Dim ConexionExterna As Boolean
+	Dim MyLan As ServerSocket
+	
+	
+	'Dim ConexionEstablecida As Boolean
+	
+	
+End Sub
+
+Sub Globals
+	Dim ListView1 As ListView
+
+	
+End Sub
+
+
+
+
+Sub Activity_Create(FirstTime As Boolean)
+
+
+	If MyLan.IsInitialized = False Then  MyLan.Initialize( 0, "")
+	
+	'valorescomunes.cargac
+	
+
+	
+	Activity.LoadLayout ("FrmInicio")
+
+
+	
+	If FirstTime Then
+
+		
+		If File.Exists ( File.DirInternal ,"Centrales")  = False  Then
+			Dim result As Int
+			result = Msgbox2(ValoresComunes.GetLanString ("cdt"),ValoresComunes.GetLanString ("pp") , ValoresComunes.GetLanString ("Y"),ValoresComunes.GetLanString ("N") , "",Null)
+			If result = DialogResponse.Positive Then
+				Dim P As PhoneIntents
+				StartActivity(P.OpenBrowser("http://domotica-arduino.es/blog/download-arduino-home-automation-arduino-apps/"))
+				ValoresComunes.CloseApp=True
+				Return
+			End If
+			
+			result = Msgbox2(ValoresComunes.GetLanString ("RBU") & "?",ValoresComunes.GetLanString ("LCF") , ValoresComunes.GetLanString ("Y"),ValoresComunes.GetLanString ("N") , "",Null)
+			If result = DialogResponse.Positive Then
+				Dim d As FileDialog
+				d.FilePath = File.DirDefaultExternal
+				d.ShowOnlyFolders= False
+				d.FileFilter=".piz"
+				result= d.Show ("Select backup copy", ValoresComunes.GetLanString ("Ok"),ValoresComunes.GetLanString ("Cancel"),"",Null)
+				
+				If result=  DialogResponse.POSITIVE  Then
+					'https://www.b4x.com/android/forum/threads/fileselect-library-with-type-icons.38345/#post-226868
+					'https://www.b4x.com/android/forum/threads/class-slidemenu.18810/#content
+					Dim myZip As  ABZipUnzip
+					Dim ruta As String
+					ruta =  d.FilePath & "/" & d.ChosenName
+					If ruta.Length >0 And d.ChosenName.Length > 0   Then
+						myZip.ABUnzip ( ruta, File.DirInternal)
+						'myZip.UnZip(
+						ToastMessageShow(ValoresComunes.GetLanString ("reg139"),True)
+						ValoresComunes.CloseApp =True
+						Activity.Finish
+					End If
+				Else
+					ActCentral.InitialName =""
+					ValoresComunes.Centrales .Initialize
+					ActCentral.InitialName =""
+					StartActivity(ActCentral)
+					Return
+					
+				End If
+			Else
+				ActCentral.InitialName =""
+				ValoresComunes.Centrales .Initialize
+				ActCentral.InitialName =""
+				StartActivity(ActCentral)
+				Return
+			End If
+		End If
+		ValoresComunes.Centrales=  File.ReadList (File.DirInternal , "Centrales" )
+			
+	End If
+
+	
+	ValoresComunes.Ip =""
+	
+	
+
+	'Configuracion de la lista de dispositivos
+	
+	ListView1.height =Activity.Height
+	ListView1.Width =Activity.Width
+	ListView1.Top =0
+	ListView1.Left =0
+	
+
+	'Configuracion tamaño listas
+	Dim h As Int
+	h=75dip
+	
+	
+	ListView1.TwoLinesAndBitmap .ItemHeight =h
+	ListView1.TwoLinesAndBitmap.ImageView.Width=h
+	ListView1.TwoLinesAndBitmap.ImageView.height=h
+	
+	ListView1.TwoLinesAndBitmap.Label .Left =h + h/9
+	ListView1.TwoLinesAndBitmap.Label.height  =h/1.8
+	ListView1.TwoLinesAndBitmap.Label.Gravity = Bit.Or(Gravity.LEFT, Gravity.BOTTOM)
+	
+	ListView1.TwoLinesAndBitmap.SecondLabel .Left =ListView1.TwoLinesAndBitmap.Label .Left
+	ListView1.TwoLinesAndBitmap.SecondLabel.height   =h-ListView1.TwoLinesAndBitmap.Label.height
+	ListView1.TwoLinesAndBitmap.SecondLabel.top   = ListView1.TwoLinesAndBitmap.SecondLabel.height
+	ListView1.TwoLinesAndBitmap.SecondLabel.Gravity = Bit.Or(Gravity.LEFT, Gravity.CENTER_VERTICAL)
+	
+		
+	'AdView1.Initialize2("Ad", "ca-app-pub-6421049843515203/5265561373", AdView1.SIZE_SMART_BANNER)
+	'Activity.AddView( AdView1, 0dip, 0dip, 100%x, height)
+	
+		
+End Sub
+Sub Activity_Resume
+	If ValoresComunes.CloseApp Or ValoresComunes.Centrales .IsInitialized = False  Then
+		ExitApplication
+	Else
+		If MyLan.IsInitialized = False Then  MyLan.Initialize( 0, "")
+		ListView1.height = 100%y - 52dip
+		ListView1.Width =Activity.Width
+		ListView1.Top =52dip
+	
+		
+		
+		If ValoresComunes.Centrales .Size >0 Then
+		
+			If ValoresComunes.Centrales.Size =1 Then
+				StartActivity(ActMosaico)
+			Else
+				If ListView1.Size <> ValoresComunes.Centrales .Size  Then
+					ValoresComunes.IniciarIconosCentrales
+				End If
+				
+				Dim li As Int
+				ListView1.Clear
+				
+				For li = 0 To ValoresComunes.Centrales.Size -1
+					ListView1.AddTwoLinesAndBitmap (ValoresComunes.Centrales .Get(li),ValoresComunes.GetLanString ("PC"),ValoresComunes.GetImgDevice(ValoresComunes.Centrales .Get(li), True) )
+				Next
+			End If
+
+		Else
+		
+			ActCentral.InitialName =""
+			StartActivity(ActCentral)
+		End If
+	End If
+	
+	'If ConexionEstablecida = False Then IniciarRed
+	'RefrescarPantalla
+End Sub
+
+
+
+
+Sub Activity_Pause (UserClosed As Boolean)
+
+End Sub
+
+Sub ListView1_ItemClick (Position As Int, Value As Object)
+	
+	ActMosaico.Conectado =False
+	ActMosaico.CentraltoConnect  = Position
+	StartActivity(ActMosaico)
+End Sub
+
+
