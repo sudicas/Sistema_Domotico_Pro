@@ -1,4 +1,4 @@
-# Sistena_Domotico_Pro
+# Sistema_Domotico_Pro
 Android app for domotic system control with arduino
 The app has a configurator that run under Windows where you can set a domotic system.
 
